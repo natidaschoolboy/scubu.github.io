@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    border-style: border-box;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    transition: all .45s ease;
+    scroll-behavior: smooth;
+    
+}
+body{
+    background-image: url(bk.jfif);
+    background-color: black;
+}
+header{
+    position: fixed;
+    display: flex;
+}
+.nav{
+     display: flex;
+}
+.nav li{
+    width: 100px;
+    padding: 0px 20px 20px 20px;
+}
+.nav a{
+    color: rgb(180, 180, 180);
+    font-weight: 700;
+}
+.nav a:hover{
+    color: rgb(245, 70, 245);
+}
+
+section{
+    padding: 170px 15% 120px;
+}
+.home{
+    color: white;
+    padding: 100px;
+}
+.logo{
+    font-size: 60px;
+}
+
+span{
+    color: rgb(245, 70, 245);
+}
+.shirts{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    background-color: rgb(156, 110, 110);
+    padding-top:20px;
+
+}
+
+.shirts2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    background-color: rgb(178, 178, 178);
+    padding-top:20px;
+
+}
+
+
+.products{
+    background-color: white;
+    border-radius: 5px;
+    gap: 2.5rem;
+    margin: 2.5rem;
+    
+}
+.products:hover{
+    transform: translateY(-10px);
+}
+.product-img{
+    height: 300px;
+    width: 300px;
+}
+.product-content{
+    padding: 5px;
+}
+.products h3{
+    padding: 5px;
+}
+.checkout{
+    padding:10px;
+}
+.btn{
+    padding: 10px;
+    display: inline-block;
+    background-color:rgb(245, 70, 245);
+    border-radius: 3px;
+    border-style: none;
+    color:white;
+}
+.btn:hover{
+    background-color: rgb(156, 110, 110);
+    transform: scale(0.9);
+}
+
+.cart{
+    background-color: white;
+}
+.payment{
+    background-color: white;
+}
+form{
+    background-color: rgb(156, 110, 110);
+    width: 100%;
+    padding: 25px;
+}
+.insert{
+    background-color: rgb(178, 178, 178);
+    width: 350px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    line-height: 25px;
+    border-bottom-style: solid;
+    border-color: rgb(245, 70, 245);
+}
