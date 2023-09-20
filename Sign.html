@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scubu Sign In</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body> 
+    <section class="home" id="home">
+        <center>
+         <h1 class="logo">S<span>cubu</span>.</h1>
+         <p class="slogan"><span>Hard to find,</span> easy to get,<span> always for keeps</span></p>
+        </center>
+     </section>
+     
+    <center>
+        <section class="sign">
+            <form style="border-radius: 9px;"class="box" action="process-form.php" method="post">
+                <h1>Sign Up</h1>
+                <input type="text" placeholder="First Name" required class="insert" name="Fname" id="Fname"><br></br>
+                <input type="text" placeholder="Last Name" required class="insert" name="Lname"><br></br>
+                <input type="email" placeholder="example@email.com" required class="insert" name="email"><br></br>
+                <input type="password" placeholder="Password" required class="insert" name="password"><br></br>
+                <input type="password" placeholder=" Confirm Password" required class="insert" name="confirm-password"><br></br>
+                <button class="btn" type="submit" value="submit">Sign Up</button>
+                Already have an Account <a href="login.html">Login Instead</a>
+                 </form>
+         </section>
+    </center>
+</body>
+</html>
